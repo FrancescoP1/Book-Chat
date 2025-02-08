@@ -1,4 +1,6 @@
 # Book-Chat
+<img src="resources/book_chat_logo.png" /><br>
+
 This app was created for the TSIS 2024-2025 course at University of Bucharest (Software Engineering masters).
 This app uses Docling to process user uploaded pdf documents into a structured format (Markdown).
 The processed documents are then fed into a LLM, for it to be able to take part into the app's QA system.
@@ -16,6 +18,8 @@ The processed documents are then fed into a LLM, for it to be able to take part 
 - Mihai Bîrsan
 
 ## A small presentation
-<embed src="/resources/TSIS.pdf" type="application/pdf" width="600" height="400">
 
+In order to view a presentation of our work, please check the [TSIS.PDF](resources/TSIS.pdf) file
+
+<img src="resources/app.png"/><br>
 
