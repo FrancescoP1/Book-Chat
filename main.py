@@ -14,6 +14,8 @@ from langchain_core.prompts import PromptTemplate
 
 
 def list_books(folder="books"):
+    if not os.path.exists(folder):
+        os.makedirs(folder)
     return [f for f in os.listdir(folder) if f.endswith(".pdf")]
 
 class DoclingDocumentLoader:
